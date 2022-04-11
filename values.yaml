@@ -1,0 +1,23 @@
+nameOverride: ""
+
+image:
+  registry: docker.io
+  repository: nginx
+  tag: "1.20.2"
+  pullPolicy: IfNotPresent
+  pullSecrets: []
+  debug: false
+
+replicaCount: 1
+
+resources:
+  ## Example:
+  ## limits:
+  ##    cpu: 100m
+  ##    memory: 128Mi
+  limits: {}
+  ## Examples:
+  ## requests:
+  ##    cpu: 100m
+  ##    memory: 128Mi
+  requests: {}
