@@ -31,3 +31,7 @@ $ helm install my-nginx ./edu-helm-nginx-chart
 | `replicaCount`       | Number of NGINX replicas to deploy                                                    | `1`            |
 | `resources.limits`   | The resources limits for the NGINX container                                          | `{}`           |
 | `resources.requests` | The requested resources for the NGINX container                                       | `{}`           |
+
+
+
+Some Notes : You need to explain assignment ...
